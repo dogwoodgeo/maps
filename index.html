@@ -1,29 +1,21 @@
 <!doctype html>
-<!--[if lt IE 9]>  <html class="ie lt-ie9 ie8"> <![endif]-->
-<!--[if IE 9]>     <html class="ie ie9"> <![endif]-->
-<!--[if !IE]><!--> <html> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>LRWRA Maps</title>
     <link rel="shortcut icon" href="https://gis.lrwu.com/maps/img/shortcut.ico">
-    <!-- get calcite-web css from the cdn (use latest version) -->
+    <!-- calcite-web css the cdn -->
     <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css">
     <link rel="stylesheet" href="style.css" type="text/css"/>
-    <!-- [if lt IE 9]>
-      <script src="/assets/javascripts/libs/selectivizr.js"></script>
-      <script src="/assets/javascripts/libs/html5shiv.js"></script>
-    <![endif] -->
   </head>
   <body>
     <div class="wrapper">
-      <!-- Header (Navigation) -->
+      <!-- HEADER -->
       <div id="header">
         <div class="grid-container">
           <div class="column-24 phone-hide">
-            <!-- links for top navigation go in here -->
-            <!-- <a id="topnav" href="#" class="top-nav-title">LRWRA GIS</a> -->
+            <!-- HEADER LINKS -->
             <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
               <a class="top-nav-link" href="https://gis.lrwu.com/portal/home/signin.html" target="_blank">GIS Login</a>
               <a class="top-nav-link" href="https://www.lrwra.com" target="_blank">LRWRA Main</a>
@@ -35,16 +27,12 @@
         </div>
       </div>
 
-      <!-- banner -->
-      <!-- <div id="banner" class="leader-1 trailer-1 pre-2 post-2 phone-hide">
-        <img id="banner-img" src="/img/banner.png" style="width: 100%; padding: 0; object-fit: cover" alt="banner img">
-      </div> -->
+      <!-- BANNER -->
       <div id="banner" class="panel phone-hide">
         <div class="grid-container">
           <div class="column-24 leader-1 trailer-1 pre-4 post-4">
-            <!-- title needs to go in here, but be white and centered -->
+            <!-- TITLE BANNER IMAGE -->
             <img src="https://gis.lrwu.com/maps/img/banner-title.png" style="width: 60%; padding: 0; object-fit: cover" alt="banner logo">
-            <!-- <h1>Banner Title</h1> -->
           </div>
         </div>
       </div>
@@ -52,7 +40,7 @@
       <div class="grid-container leader-1">
         <!-- main content list -->
         <div class="column-22 pre-1">
-          <!-- cards 1-->
+          <!-- CARDS 1-->
           <div class="block-group block-group-4-up tablet-block-group-2-up phone-block-group-1-up">
             <div class="card block trailer-1">
               <figure class="card-image-wrap">
@@ -99,7 +87,7 @@
               </div>
             </div>
           </div>
-          <!-- cards 2-->
+          <!--CARDS 2-->
           <div class="block-group block-group-4-up tablet-block-group-2-up phone-block-group-1-up">
             <div class="card block trailer-1">
               <figure class="card-image-wrap">
@@ -145,7 +133,23 @@
                 <p class="font-size--2">A site where you can download LRWRA's Geographic Information System (GIS) data.</p>
               </div>
             </div>
+          </div>
+          <!--CARDS 3-->
+          <div class="block-group block-group-4-up tablet-block-group-2-up phone-block-group-1-up">
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/portal/apps/Minimalist/index.html?appid=e4f77c51b467461eb853cd989209a2f1" target="_blank">
+                  <img class="card-image" src="/img/address.png" alt="Address image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/portal/apps/Minimalist/index.html?appid=e4f77c51b467461eb853cd989209a2f1" target="_blank">Address Validation</a></h3>
+                <p class="font-size--2">Application used to validate an address. Enter an address in the search bar to check entry against PAgis address data.</p>
+              </div>
+            </div>
+
           </div>          
+                    
         </div>
       </div>
     </div>
@@ -166,9 +170,9 @@
         <img id="logo" src="https://gis.lrwu.com/maps/img/full-color-nb.png" alt="LRWRA logo">
       </div>
     </div>
-    <!-- get calcite-web js from the cdn (use latest version) -->
+    <!-- calcite-web js cdn -->
     <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/js/calcite-web.min.js"></script>
-    <!-- interactive patterns need to be initialized -->
+    <!-- INIT CALCITE JS -->
     <script>
        calcite.init()
     </script>
