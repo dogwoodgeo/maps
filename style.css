@@ -1,0 +1,48 @@
+
+.wrapper {
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  border: none;
+
+  
+}
+/* #banner-img{
+  border-radius: .75em;
+  border-color: transparent;
+  padding: 0;
+} */
+
+#banner {
+  background-image: url("/img/banner-bg.png");
+  background-size: cover;
+  border: none;
+}
+
+#header{
+  background-color: white;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+.card-image {
+  border-radius: 5px;
+}
+
+.column-19 {
+  overflow: scroll;
+}
+
+#disclaimer {
+  background-image: linear-gradient(-90deg,#377b9d, #4BB34C);
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}

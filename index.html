@@ -1,0 +1,176 @@
+<!doctype html>
+<!--[if lt IE 9]>  <html class="ie lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9"> <![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>LRWRA Maps</title>
+    <link rel="shortcut icon" href="https://gis.lrwu.com/maps/img/shortcut.ico">
+    <!-- get calcite-web css from the cdn (use latest version) -->
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <!-- [if lt IE 9]>
+      <script src="/assets/javascripts/libs/selectivizr.js"></script>
+      <script src="/assets/javascripts/libs/html5shiv.js"></script>
+    <![endif] -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header (Navigation) -->
+      <div id="header">
+        <div class="grid-container">
+          <div class="column-24 phone-hide">
+            <!-- links for top navigation go in here -->
+            <!-- <a id="topnav" href="#" class="top-nav-title">LRWRA GIS</a> -->
+            <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
+              <a class="top-nav-link" href="https://gis.lrwu.com/portal/home/signin.html" target="_blank">GIS Login</a>
+              <a class="top-nav-link" href="https://www.lrwra.com" target="_blank">LRWRA Main</a>
+              <a class="top-nav-link" href="https://www.lrwra.com/programs/project-renew/" target="_blank">Project Renew</a>
+              <a class="top-nav-link" href="https://www.lrwra.com/programs/sslrp/" target="_blank">SSLRP</a>
+              <a class="top-nav-link" href="https://www.lrwra.com/programs/fog/" target="_blank">FOG</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <!-- banner -->
+      <!-- <div id="banner" class="leader-1 trailer-1 pre-2 post-2 phone-hide">
+        <img id="banner-img" src="/img/banner.png" style="width: 100%; padding: 0; object-fit: cover" alt="banner img">
+      </div> -->
+      <div id="banner" class="panel phone-hide">
+        <div class="grid-container">
+          <div class="column-24 leader-1 trailer-1 pre-4 post-4">
+            <!-- title needs to go in here, but be white and centered -->
+            <img src="https://gis.lrwu.com/maps/img/banner-title.png" style="width: 60%; padding: 0; object-fit: cover" alt="banner logo">
+            <!-- <h1>Banner Title</h1> -->
+          </div>
+        </div>
+      </div>
+      <!-- main-content -->
+      <div class="grid-container leader-1">
+        <!-- main content list -->
+        <div class="column-22 pre-1">
+          <!-- cards 1-->
+          <div class="block-group block-group-4-up tablet-block-group-2-up phone-block-group-1-up">
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/main.png" alt="Main App image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com" target="_blank">Main Sewer Map</a></h3>
+                <p class="font-size--2">Primary map application used by LRWRA personnel for sewer location and information.</p>
+              </div>
+            </div>
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/portal/apps/webappviewer/index.html?id=c39380cd7c8640339254348bbc64db0e" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/pr.png" alt="Project Renew image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/portal/apps/webappviewer/index.html?id=c39380cd7c8640339254348bbc64db0e" target="_blank">Project Renew</a></h3>
+                <p class="font-size--2">Map of LRWRA's ongoing sewer construction capital projects.</p>
+              </div>
+            </div>
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/sslrp/" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/sslrp.png" alt="SSLRP image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/sslrp/" target="_blank">SSLRP</a></h3>
+                <p class="font-size--2">Map of applications received for our Sewer Service Line Replacement Program (SSLRP).</p>
+              </div>
+            </div>
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/portal/apps/webappviewer/index.html?id=82fe3e4d352f4788b155ae6249d0a2f5" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/fog.png" alt="FOG image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/portal/apps/webappviewer/index.html?id=82fe3e4d352f4788b155ae6249d0a2f5" target="_blank">FOG</a></h3>
+                <p class="font-size--2">Map of Fat, Oil, & Grease (FOG) producing facilities that are regulated by LRWRA.</p>
+              </div>
+            </div>
+          </div>
+          <!-- cards 2-->
+          <div class="block-group block-group-4-up tablet-block-group-2-up phone-block-group-1-up">
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/rain-gauges/" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/rain.png" alt="Rain Gauges image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/rain-gauges/" target="_blank">Rain Gauges</a></h3>
+                <p class="font-size--2">Application that allows you to view current rain amounts for LRWRA rain gauges.</p>
+              </div>
+            </div>
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/sso/" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/sso.png" alt="Project Renew image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/sso/" target="_blank">SSO Query</a></h3>
+                <p class="font-size--2">Query and map sanitary sewer overflows (SSO) by date. The app, at this time, has limited functionality on mobile devices.</p>
+              </div>
+            </div>
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://gis.lrwu.com/3d/" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/3d.png" alt="3D image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://gis.lrwu.com/3d/" target="_blank">3D Sewer</a></h3>
+                <p class="font-size--2">This application models the sewer system subsurface in 3D.</p>
+              </div>
+            </div>
+            <div class="card block trailer-1">
+              <figure class="card-image-wrap">
+                <a href="https://data-lrw.hub.arcgis.com" target="_blank">
+                  <img class="card-image" src="https://gis.lrwu.com/maps/img/data.png" alt="Download Data image">
+                </a>
+              </figure>
+              <div class="card-content">
+                <h3><a href="https://data-lrw.hub.arcgis.com" target="_blank">Data Download</a></h3>
+                <p class="font-size--2">A site where you can download LRWRA's Geographic Information System (GIS) data.</p>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- DISCLAIMER -->
+    <div id="disclaimer">
+      <div class="grid-container">
+        <div class="column-22 pre-1 leader-2 trailer-2">
+          <h2 class="text-center text-white">Disclaimer</h2>
+          <p class="text-center text-white font-size--0">The maps and applications contained on this site were created by Little Rock Water Reclamation Authority (LRWRA) for the sole use and benefit of LRWRA and affiliated organizations. This information is provided to the public at the discretion of LRWRA. Acceptance or use of this information by anyone other than LRWRA is at the sole risk of the user. By acceptance or use of this information, the user hereby holds LRWRA harmless and without liability for any claims, costs, or damages of any nature against LRWRA, including the cost of defense arising from improper use of the data, or use by another party. Use of this information is done without any expressed or implied warranties. LRWRA reserves the right to remove the maps and applications contained on this site at any time.</p>
+          <p class="text-center text-white">Any questions regarding this can be directed <a href="mailto:gis.webmaster@lrwra.com?Subject=LRWRA%20Maps%20Website" style="color: yellow;" target="_top" >here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+      <div class="grid-container">
+        <img id="logo" src="https://gis.lrwu.com/maps/img/full-color-nb.png" alt="LRWRA logo">
+      </div>
+    </div>
+    <!-- get calcite-web js from the cdn (use latest version) -->
+    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/js/calcite-web.min.js"></script>
+    <!-- interactive patterns need to be initialized -->
+    <script>
+       calcite.init()
+    </script>
+  </body>
+</html>
